@@ -1,7 +1,7 @@
 /* boje:
-tamnocrvena #23050A
-bez #EDC8A8 
-rose #F4B0A8
+tamnocrvena #3F0812
+bez #EDC8A8, #E8C3A9, #F2D4BF
+rose #F4B0A8, #EF97B0
 */
 
 
@@ -11,15 +11,84 @@ rose #F4B0A8
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    ;
 }
 
-nav
+
 /* ______________________________________________________________________________________________________________________ */
 
-header
+nav {
+    padding: 1%;
+    background-color: #3F0812;
+    color: #F2D4BF;
+    overflow: hidden;
+}
+
+nav h1 {
+    text-transform: uppercase;
+    float: left;
+    margin-left: 15%;
+    font-size: 2.5rem;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20%;
+    margin-top: 0.8%;
+    width: 20%;
+}
+
+nav ul li {
+    display: inline-block;
+    padding-right: 7%;
+}
+
+nav a {
+    text-decoration: none;
+    color: #F2D4BF;
+}
+
+
 /* ______________________________________________________________________________________________________________________ */
 
-main
+header {
+    background-image: url('../images/policavina.jpg');
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+    width: 100%;
+}
+
+header h1 {}
+
+header p {}
+
+
 /* ______________________________________________________________________________________________________________________ */
 
-footer
+main {}
+
+main section {}
+
+main section article {}
+
+address {}
+
+.label {}
+
+.value {}
+
+iframe {}
+
+
+/* ______________________________________________________________________________________________________________________ */
+
+footer {}
+
+footer section {}
+
+footer ul li {}
+
+footer footer {}
