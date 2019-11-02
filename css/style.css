@@ -14,13 +14,17 @@ rose #F4B0A8, #EF97B0
     font-family: 'Poppins', sans-serif;
 }
 
+body {
+    background-color: #fdf2eb;
+}
+
 
 /* ______________________________________________________________________________________________________________________ */
 
 nav {
-    padding: 1%;
     background-color: #3F0812;
     color: #F2D4BF;
+    padding: 1%;
     overflow: hidden;
 }
 
@@ -96,12 +100,86 @@ header p {
 
 /* ______________________________________________________________________________________________________________________ */
 
+main {
+    width: 85%;
+    margin: auto;
+}
 
-/* main {}
+main section {
+    margin-top: 2%;
+    overflow: hidden;
+    padding: 1%;
+}
 
-main section {}
+#prviSection {
+    background-color: #f8e5d9;
+}
 
-main section article {}
+.prviPasus {
+    float: left;
+}
+
+.prviLink,
+article a {
+    float: right;
+    padding: 1%;
+    background-color: #3F0812;
+    color: #F2D4BF;
+    border-radius: 3%;
+    text-decoration: none;
+}
+
+a.prviLink:hover,
+article a:hover {
+    background-color: #F2D4BF;
+    color: #3F0812;
+    border-bottom: 4px solid #EF97B0;
+}
+
+main section article {
+    float: left;
+    width: 22%;
+    margin-right: 3%;
+    padding: 1%;
+    text-align: center;
+}
+
+article:hover {
+    background-color: #f8e5d9;
+}
+
+article h3 {
+    line-height: 200%;
+    font-size: 1.4rem;
+}
+
+article p {
+    text-align: left;
+    margin-bottom: 10%;
+}
+
+article a {
+    float: none;
+    padding: 2%;
+}
+
+article img {
+    height: 200px;
+    width: 200px;
+    padding: 1%;
+    border: 1px solid #aaa;
+    /* margin: auto;
+    display: inline-block */
+}
+
+#contact {
+    background-color: #faeae0;
+    overflow: hidden;
+}
+
+.info {
+    float: left;
+}
 
 address {}
 
@@ -109,7 +187,9 @@ address {}
 
 .value {}
 
-iframe {} */
+iframe {
+    float: right;
+}
 
 
 /* ______________________________________________________________________________________________________________________ */
