@@ -321,6 +321,11 @@ iframe:hover {
     color: #3F0812;
 }
 
+.btt {
+    line-height: 500%;
+    font-size: 1.3rem;
+}
+
 
 /* - - - - - - - - - - - - - -- - - - - - - - - -- - - - - - - - - */
 
@@ -333,6 +338,10 @@ iframe:hover {
     float: left;
     width: 5vw;
     height: 5vw;
+}
+
+#container img:hover {
+    border: 2px solid #1a0408;
 }
 
 .blogpost {
