@@ -26,7 +26,8 @@ nav {
 
 nav h1 {
     float: left;
-    margin-left: 15%;
+    margin-left: 18%;
+    margin-top: 0.3%;
     text-transform: uppercase;
     font-weight: 100;
     font-size: 2.5rem;
@@ -35,28 +36,33 @@ nav h1 {
 
 nav ul {
     float: right;
-    margin-right: 20%;
-    margin-top: 0.8%;
-    width: 22%;
+    margin-right: 10%;
+    margin-top: 0.5%;
+    width: 23%;
+    font-size: 1.2rem;
 }
 
 nav ul li {
     display: inline-block;
-    margin-right: 7%;
-    padding: 1%;
+    text-align: center;
 }
 
 nav a {
     text-decoration: none;
     color: #F2D4BF;
-    padding: 3%;
+    padding: 2%;
 }
 
 nav a:hover {
     background-color: #F2D4BF;
     color: #3F0812;
-    border-bottom: 2px solid #3F0812;
+    border-bottom: 4px solid #EF97B0;
 }
+
+
+/* nav li:hover {
+    border-bottom: 2px solid #3F0812;
+} */
 
 
 /* ______________________________________________________________________________________________________________________ */
@@ -95,7 +101,8 @@ header p {
 
 /* ______________________________________________________________________________________________________________________ */
 
-main {}
+
+/* main {}
 
 main section {}
 
@@ -107,15 +114,16 @@ address {}
 
 .value {}
 
-iframe {}
+iframe {} */
 
 
 /* ______________________________________________________________________________________________________________________ */
 
-footer {}
+
+/* footer {}
 
 footer section {}
 
 footer ul li {}
 
-footer footer {}
+footer footer {} */
