@@ -5,7 +5,7 @@ rose #F4B0A8, #EF97B0
 */
 
 
-/* - - - - - - - - - - - - - -- - - - - - - - - -- - - - - -- - - - - - -- - - - - - - - - - -- - - - - - - - - - - - - - */
+/* - - - - - -  - - -- - - - - - - - - - -- - - - - - - - - - - - - - */
 
 * {
     box-sizing: border-box;
@@ -19,7 +19,7 @@ body {
 }
 
 
-/* ______________________________________________________________________________________________________________________ */
+/* ___________________________________________________________________ */
 
 nav {
     background-color: #3F0812;
@@ -64,7 +64,7 @@ nav a:hover {
 }
 
 
-/* ______________________________________________________________________________________________________________________ */
+/* _______________________________________________________________ */
 
 header {
     background-image: url('../images/policavina.jpg');
@@ -98,7 +98,7 @@ header p {
 }
 
 
-/* ______________________________________________________________________________________________________________________ */
+/* __________________________________________________________________ */
 
 main {
     width: 85%;
@@ -119,8 +119,7 @@ main section {
     float: left;
 }
 
-.prviLink,
-article a {
+.prviLink {
     float: right;
     padding: 1%;
     background-color: #3F0812;
@@ -129,14 +128,13 @@ article a {
     text-decoration: none;
 }
 
-a.prviLink:hover,
-article a:hover {
+a.prviLink:hover {
     background-color: #F2D4BF;
     color: #3F0812;
     border-bottom: 4px solid #EF97B0;
 }
 
-main section article {
+.prviArticle {
     float: left;
     width: 22%;
     margin-right: 3%;
@@ -144,33 +142,34 @@ main section article {
     text-align: center;
 }
 
-article:hover {
+.prviArticle:hover {
     background-color: #f8e5d9;
 }
 
-article h3 {
+.prviArticle h3 {
     line-height: 200%;
     font-size: 1.4rem;
 }
 
-article p {
+.prviArticle p {
     text-align: left;
     margin-bottom: 10%;
 }
 
-article a {
+.prviArticle a.prviLink {
     float: none;
     padding: 2%;
 }
 
-article img {
+.prviArticle img {
     height: 200px;
     width: 200px;
     padding: 1%;
     border: 1px solid #aaa;
-    /* margin: auto;
-    display: inline-block */
 }
+
+
+/* - - - - - - - - - - - - - -- - - - - - - - - -- - - - - - - - - */
 
 #contact {
     background-color: #faeae0;
