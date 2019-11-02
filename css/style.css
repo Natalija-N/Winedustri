@@ -18,6 +18,33 @@ body {
     background-color: #fdf2eb;
 }
 
+h1 {
+    font-weight: 100;
+    font-size: 3rem;
+    font-family: 'Amaranth', arial, sans-serif;
+}
+
+img {
+    padding: 1%;
+    border: 1px solid #aaa;
+}
+
+img:hover {
+    border: 2px solid #3F0812;
+}
+
+a {
+    text-decoration: none;
+    color: #F2D4BF;
+    border-radius: 3%;
+}
+
+a:hover {
+    background-color: #F2D4BF;
+    color: #3F0812;
+    border-bottom: 4px solid #EF97B0;
+}
+
 
 /* ___________________________________________________________________ */
 
@@ -33,16 +60,14 @@ nav h1 {
     margin-left: 18%;
     margin-top: 0.3%;
     text-transform: uppercase;
-    font-weight: 100;
     font-size: 2.5rem;
-    font-family: 'Amaranth', arial, sans-serif;
 }
 
 nav ul {
     float: right;
     margin-right: 10%;
     margin-top: 0.7%;
-    width: 23%;
+    width: 30%;
     font-size: 1.2rem;
 }
 
@@ -52,15 +77,7 @@ nav ul li {
 }
 
 nav a {
-    text-decoration: none;
-    color: #F2D4BF;
     padding: 2%;
-}
-
-nav a:hover {
-    background-color: #F2D4BF;
-    color: #3F0812;
-    border-bottom: 4px solid #EF97B0;
 }
 
 
@@ -74,7 +91,7 @@ header {
     height: 100vh;
     width: 100%;
     text-align: center;
-    color: #F2D4BF;
+    color: #faeae0;
 }
 
 header h1 {
@@ -84,8 +101,6 @@ header h1 {
     margin-top: 16%;
     padding: 1%;
     background-color: #3F0812;
-    font-family: 'Amaranth', arial, sans-serif;
-    font-size: 3rem;
 }
 
 header p {
@@ -102,43 +117,46 @@ header p {
 
 main {
     width: 85%;
+    min-height: 100vh;
     margin: auto;
 }
 
 main section {
-    margin-top: 2%;
+    margin-top: 1%;
     overflow: hidden;
     padding: 1%;
 }
 
-#prviSection {
+main a {
+    float: right;
+    padding: 1%;
+    background-color: #3F0812;
+}
+
+#prviSection,
+#drugiSection {
     background-color: #f8e5d9;
+    margin-top: 3%;
+}
+
+#drugiSection {
+    margin: 0;
+    text-align: right;
 }
 
 .prviPasus {
     float: left;
 }
 
-.prviLink {
-    float: right;
-    padding: 1%;
-    background-color: #3F0812;
-    color: #F2D4BF;
-    border-radius: 3%;
-    text-decoration: none;
-}
-
-a.prviLink:hover {
-    background-color: #F2D4BF;
-    color: #3F0812;
-    border-bottom: 4px solid #EF97B0;
+#drugiSection .prviPasus {
+    margin-left: 25%;
 }
 
 .prviArticle {
     float: left;
     width: 22%;
     margin-right: 3%;
-    padding: 1%;
+    padding: 1% 1% 2%;
     text-align: center;
 }
 
@@ -152,24 +170,18 @@ a.prviLink:hover {
     margin-bottom: 10%;
 }
 
-.prviArticle a.prviLink {
+.prviArticle a {
     float: none;
     padding: 2%;
 }
 
 .prviArticle img {
-    height: 200px;
-    width: 200px;
-    padding: 1%;
-    border: 1px solid #aaa;
+    height: 300px;
+    width: 300px;
 }
 
 .prviArticle:hover {
     background-color: #f8e5d9;
-}
-
-.prviArticle:hover img {
-    border: 2px solid #3F0812;
 }
 
 
@@ -183,14 +195,8 @@ a.prviLink:hover {
 
 #contact img {
     float: left;
-    padding: 1%;
-    border: 1px solid #aaa;
     width: 30%;
     margin: 7% 7%;
-}
-
-#contact img:hover {
-    border: 2px solid #3F0812;
 }
 
 .info {
@@ -198,7 +204,7 @@ a.prviLink:hover {
     width: 40%;
     margin: 7% 15% 1% 0%;
     padding: 2%;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: #f6ddce;
     text-align: justify;
     font-size: 1.4rem;
 }
@@ -207,8 +213,6 @@ a.prviLink:hover {
     padding: 1%;
     background-color: #3F0812;
     color: #faeae0;
-    font-family: 'Amaranth', arial, sans-serif;
-    font-size: 3rem;
     text-align: center;
 }
 
@@ -229,7 +233,10 @@ a.prviLink:hover {
 
 .label a {
     color: #3F0812;
-    text-decoration: none;
+}
+
+.label a:hover {
+    background-color: unset;
 }
 
 iframe {
@@ -237,8 +244,8 @@ iframe {
     height: 300px;
     width: 40%;
     margin-left: 1%;
-    border: 1px solid #aaa;
     padding: 0.1%;
+    border: 1px solid #aaa;
 }
 
 iframe:hover {
@@ -246,13 +253,101 @@ iframe:hover {
 }
 
 
-/* ______________________________________________________________________________________________________________________ */
+/* ___________________________________________________________________ */
+
+#container {
+    margin: auto;
+    overflow: hidden;
+    padding: 1% 5%;
+    background-color: #3F0812;
+    color: #faeae0;
+    text-align: justify;
+}
+
+#container p {
+    margin-bottom: 3%;
+}
+
+#container a {
+    padding: 2%;
+}
+
+#container section {
+    float: left;
+    margin-right: 2%;
+    padding: 1%;
+}
+
+.sirina30 {
+    width: 30%;
+}
+
+.sirina15 {
+    width: 15%;
+    margin-right: 1%;
+}
 
 
-/* footer {}
+/* - - - - - - - - - - - - - -- - - - - - - - - -- - - - - - - - - */
 
-footer section {}
+.sirina30 span {
+    font-size: 1.2rem;
+    margin-left: 2%;
+}
 
-footer ul li {}
+#container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2%;
+}
 
-footer footer {} */
+#container h2 {
+    margin-bottom: 2%;
+}
+
+
+/* - - - - - - - - - - - - - -- - - - - - - - - -- - - - - - - - - */
+
+#container ul li {
+    list-style: none;
+}
+
+#container ul li a {
+    line-height: 200%;
+    font-size: 1.1rem;
+}
+
+#container ul li a:hover {
+    background-color: #faeae0;
+    color: #3F0812;
+}
+
+
+/* - - - - - - - - - - - - - -- - - - - - - - - -- - - - - - - - - */
+
+#container article {
+    margin: 5% 0% 0%;
+    overflow: hidden;
+}
+
+#container img {
+    float: left;
+    width: 5vw;
+    height: 5vw;
+}
+
+.blogpost {
+    float: left;
+    margin-left: 3%;
+    width: 75%;
+}
+
+
+/* ___________________________________________________________________ */
+
+footer {
+    clear: both;
+    padding: 1%;
+    background-color: #2e050d;
+    color: #faeae0;
+    text-align: center;
+}
